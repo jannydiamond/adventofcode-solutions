@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import Main from 'components/atoms/Main'
 import H1 from 'components/atoms/H1'
@@ -15,6 +16,11 @@ const Home = () => {
         </a>
       </p>
       <H2>2020</H2>
+      <ul>
+        <li>
+          <Link to="/2020/day1">Day 1</Link>
+        </li>
+      </ul>
     </Main>
   )
 }
