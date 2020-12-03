@@ -20,6 +20,9 @@ const Home = () => {
         <li>
           <Link to="/2020/day1">Day 1</Link>
         </li>
+        <li>
+          <Link to="/2020/day2">Day 2</Link>
+        </li>
       </ul>
     </Main>
   )
